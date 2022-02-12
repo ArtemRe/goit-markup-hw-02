@@ -140,11 +140,11 @@ li {
 :focus {
   color: var(--main-blue);
 }
-.section-nav li {
-  cursor: pointer;
+.section-nav {
 }
 .nav-portfolio {
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 .nav-portfolio:hover,
 .nav-portfolio:focus {
