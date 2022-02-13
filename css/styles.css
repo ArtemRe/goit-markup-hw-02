@@ -161,10 +161,7 @@ li {
 .section-portfolio p {
   color: var(--paragraf-colore);
 }
-.section-portfolio p:focus,
-.section-portfolio p:hover {
-  color: var(--main-blue);
-}
+
 .img-back {
   background-color: #eeeeee;
 }
@@ -196,7 +193,7 @@ li {
 }
 .inner-title {
   /* font-family: Roboto; */
-  font-weight: normal;
+  /* font-weight: normal; */
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
