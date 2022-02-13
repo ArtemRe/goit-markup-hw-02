@@ -33,7 +33,7 @@ li {
 }
 .logo {
   color: var(--tittle-colore);
-  font-family: Raleway;
+  font-family: raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -55,7 +55,7 @@ li {
 
 .site-nav a {
   color: var(--tittle-colore);
-  font-family: Roboto, sans-serif;
+  /* font-family: Roboto, sans-serif; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -66,7 +66,8 @@ li {
 }
 .contakts a {
   color: var(--paragraf-colore);
-  font-family: Roboto;
+  font-weight: 500;
+  /* font-family: Roboto; */
 
   font-size: 14px;
   line-height: 1.14;
@@ -77,20 +78,20 @@ li {
 }
 .title-hero {
   color: var(--main-bacgraund);
-
+  text-transform: uppercase;
   font-size: 44px;
   line-height: 1.4;
-  line-height: 116%;
+  line-height: 1.16;
   text-align: center;
 }
 .button-orde {
   color: #ffffff;
   background-color: var(--main-blue);
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
-  line-height: 160%;
+  line-height: 1.6;
   text-align: center;
   cursor: pointer;
 }
@@ -100,13 +101,14 @@ li {
   background-color: var(--buttone-blue);
 }
 .title-main {
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.4;
 }
 .section-title {
   color: var(--tittle-colore);
-  font-family: Roboto, sans-serif;
+  /* font-family: Roboto, sans-serif; */
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
@@ -114,11 +116,11 @@ li {
   text-align: center;
 }
 .title-text {
-  font-family: Roboto;
+  /* font-family: Roboto; */
 
   font-size: 14px;
   line-height: 1.7;
-  line-height: 146%;
+  line-height: 1.46;
 }
 .title-inner {
   font-weight: 500;
@@ -134,7 +136,7 @@ li {
   text-align: center;
 }
 .adress-footer a {
-  color: var(--paragraf-colore);
+  /* color: var(--paragraf-colore); */
 }
 .adress-footer :hover,
 :focus {
@@ -143,8 +145,13 @@ li {
 .section-nav {
 }
 .nav-portfolio {
+  font-family: inherit;
   background-color: #f5f4fa;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
 }
 .nav-portfolio:hover,
 .nav-portfolio:focus {
@@ -164,19 +171,19 @@ li {
 .point {
   font-size: 14px;
   line-height: 1.7;
-  line-height: 146%;
+  line-height: 1.46;
   text-align: left;
   vertical-align: top;
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
 }
 .mail-footer,
 .tel-footer {
   font-size: 14px;
   line-height: 1.7;
-  line-height: 146%;
+  line-height: 1.46;
   text-align: left;
   vertical-align: top;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
 }
 .logo-footer {
   color: #ffffffff;
@@ -188,16 +195,19 @@ li {
   letter-spacing: 0.03em;
 }
 .inner-title {
-  font-family: Roboto;
+  /* font-family: Roboto; */
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
 .foto-title {
-  font-family: Roboto, sans-serif;
+  /* font-family: Roboto, sans-serif; */
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+.adres {
+  font-style: normal;
 }
